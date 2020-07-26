@@ -1,0 +1,122 @@
+.cont1{
+    padding-top: 3.5rem;
+}
+.cont11{
+    margin: 1rem 0rem;
+    padding: 1.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+}.cont11 h1{
+    line-height: 1;
+    margin: 0;
+    font-family:'Rajdhani', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 10px;
+}
+.cont11 p{
+    color:rgb(197, 137, 6);
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+    padding: 1.5rem 1rem;
+    margin-bottom: 1rem;
+}
+.contentF{
+    width: 30%;   
+}
+.contentForm{
+    width: 70%;
+    padding:  0rem 1rem;
+    
+}
+.cont-ic{
+    margin-right: 0.5rem;
+}
+.contentF p{
+    padding-left: 2.3rem;
+}
+.cont-adr{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgb(30,30,30);
+}
+.phoe{
+    font-size: 18px;
+  
+    color:rgb(218, 153, 15);
+}
+.mail1 a{
+    color:rgb(218, 153, 15);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+}
+.lab{
+    line-height:2.5;
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    color:rgb(30,30,30);
+}
+.item0{
+    width: 100%;
+}
+.item0 input{
+    width: 100%;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    padding: 0.7rem;
+    border:1px solid rgb(218, 153, 15);
+    outline: none;
+}
+.item0 textarea{
+    width: 100%;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    padding: 0.7rem;
+    height: 6rem;
+    border:1px solid rgb(218, 153, 15);
+    outline: none;
+}
+.mail1 a:hover{
+    transition: 0.7s;
+    color:rgb(117, 82, 5);
+}
+.btn-sub2{
+    border:1px solid rgb(218, 153, 15);
+    background-color: white;
+    padding: 0.8rem 3rem;
+    margin-top: 0.5rem;
+    font-size: 22px;
+    font-family: 'Julius Sans One', sans-serif;
+    cursor: pointer;
+    color: rgb(30,30,20);
+}
+.btn-sub2:hover{
+    transition: 0.7s;
+    background-color: rgb(240, 180, 51);
+    color: white;
+}
+@media only screen and (max-width: 760px) {
+    .content{
+        flex-direction: column;
+    }
+    .contentF{
+        width: 100%;   
+    }
+    .contentForm{
+        width: 100%;   
+        margin-top: 1.5rem;
+        padding: 0rem;
+    }
+  }
