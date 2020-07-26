@@ -519,3 +519,15 @@ nav ul li {
         color:rgb(240, 178, 46);
         background-color: white;
 }
+.inftitle{
+    float: left;
+    
+}
+.h{
+    float: right;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.p{
+    clear: both;
+}
