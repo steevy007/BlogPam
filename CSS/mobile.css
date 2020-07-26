@@ -1,0 +1,158 @@
+#menu{
+    display: block;
+}
+header{
+  
+}
+.wrapper{
+    width: 100%;
+}
+.brand {
+    width: 100%;
+    text-align: center;
+}
+nav ul{
+    margin: 0;
+   padding: 0;
+}
+nav ul li a{
+    display: block;
+    padding: 0.4rem;
+}
+.text-center{
+    text-align: center;
+    display: block;
+}
+#title{
+    padding-top: 10px;
+}
+#close{
+    position: absolute;
+    top:0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+nav{
+    display: none;
+    position: absolute;
+    width: 65%;
+    height: 100vh;
+    background-color: white;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+}
+#menu{
+    position: absolute;
+    top:0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.sect2{
+   flex-direction: column;
+}
+
+.sect2 .sechild1{
+    width: 100%;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+.sect2 .sechild2{
+    width: 100%;
+}
+.A{
+    flex-direction: column;
+}
+.text{
+    margin:0;
+    margin-top: 0.5rem;
+}
+.A .foto{
+    width: 100%;
+    height: 100%;
+}
+
+.A .text{
+    width: 100%;
+}
+.wrapper1{
+    width: 95%;
+}
+.pptitre{
+    padding: 0px;
+}
+.pic1{
+    width: 100px;
+    height: 100px;
+}
+.sub{
+    width: 100px;
+    height: 100px;
+}
+.h4h{
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a:hover{
+    border-right: 3px solid rgb(240, 178, 46);
+    border-bottom: none;
+    
+}
+.move{
+    position: relative;
+    top:5px;
+    display: inline-block;
+    
+}
+.sect1-cont{
+    width: 80%;
+}
+.part1{  
+    height: 250px;
+}
+.sect1-cont h3{
+    font-size:6px;
+}
+.copyright{
+    flex-direction: column;
+}
+.copyright .cone{
+    width: 100%;
+}
+.copyright .copyr{
+    width: 100%;
+    padding-top: 1rem;
+}
+.foot{
+    flex-direction: column;
+}
+.foot  .f1{
+    padding: 1rem;
+}
+#big{
+    width: 100%;
+}
+#smallest{
+    width: 100%;
+}
+#small{
+    width:100%;
+    padding: 1rem;
+}
+.lot-AA{
+    flex-direction: column;
+}
+.item-A{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+}
+.im001{
+    width: 100%;
+    height: 100%;
+}
+.sub-link1{
+    width: 45%;
+}

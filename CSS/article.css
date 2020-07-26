@@ -1,0 +1,118 @@
+.sub-title{
+    padding-top: 50px;
+   
+}
+.sub-titleb{
+    padding-top: 20px;
+    background-color: white;
+    padding-bottom: 0.5rem;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 2px solid rgb(240, 178, 46);
+}
+
+.catc{
+    color:rgb(240, 178, 46);
+}
+.sub-t1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 8px;
+}
+.sub-t2{
+    margin-right: 0.5rem;
+    width: 25%;
+    text-align: center;
+}
+.t2-link a{
+    color:rgb(30,30,30);
+    text-decoration: none;
+    font-weight: bolder;
+}
+.t2-link a:hover{
+    transition: 0.8s;
+    color:rgb(219, 153, 9);
+}
+.lot-A{
+    width: 100%;
+    padding-top: 130px;
+    
+}
+.lot-AA{
+   padding: 1rem 0rem;
+   display: flex;
+
+flex-direction: row;
+}
+.item-A{
+    width: 25%;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    background-color: white;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.item-A:hover{
+    transition: 1s;
+    background-color: whitesmoke;
+}
+.im001{
+    width: 100%;
+    height: 180px;
+}
+
+.inftitle{
+    margin: 0px;
+    line-height: 2;
+}
+.ic-link1{
+    position: relative;
+    top:3px;
+    margin-right: 3px;
+}
+.sub-link1{
+    width: 15%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(240, 178, 46);;
+}
+.infic1{
+    display: flex;
+    flex-direction: row;
+}
+.inf-item{
+    width: 33.33%;
+    text-align: center;
+}
+.sp1{
+    position: relative;
+    top: -10px;
+}
+.pagination{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.pagination ul{
+    list-style-type: none;
+}
+.pagination ul li{
+    display: inline;
+}
+.pagination ul li a{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.897);
+    padding: 0.5rem 1rem;
+    border-radius: 100%;
+    font-weight: bolder;
+}
+.pagination ul li a:hover{
+    transition: 0.7s;
+    background-color: rgb(30,30,30);
+    color: rgb(240, 178, 46);
+}
