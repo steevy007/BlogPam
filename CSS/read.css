@@ -1,0 +1,235 @@
+.tetArt{
+    width: 100%;
+    padding-top: 4rem;
+    background-color: whitesmoke;
+    padding-bottom: 1rem;
+}
+.Tart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Tart h1{
+    margin:0;
+    padding: 0;
+    color:rgb(218, 153, 15);
+    letter-spacing: 5px;
+    line-height: 0.5;
+}
+.linkl a{
+    text-decoration: none;
+    color:rgb(30,30,30);
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+.linkl a:hover{
+    transition: 0.7s;
+    color:rgb(158, 109, 4);
+    
+}
+.tdate{
+    font-family: 'Julius Sans One', sans-serif;
+    
+}
+.vb{
+    text-decoration:line-through;
+    color:rgb(218, 153, 15);
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+.block-read{
+    margin: 1rem 0rem;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.read-text{
+    width: 60%;
+
+}
+.more{
+    width: 40%;
+
+}
+.read-content{
+    display: flex;
+    flex-direction: column;
+}
+.read-img img{
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+.read-content div{
+width: 100%;
+}
+.cate-art{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+.left{
+    width: 80%;
+    padding:0.5rem 1rem;
+}
+.right{
+    width: 20%;
+    padding:0.5rem 1rem;
+}
+.right img{
+    float: right;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.right img:hover{
+    transform: 1s;
+    background-color: rgb(219, 217, 217);
+}
+.tg{
+    text-decoration: line-through;
+}
+.block-comment{
+    display: flex;
+    flex-direction: column;
+}
+.board-comment{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid rgb(219, 217, 217);
+    padding: 0.2rem 0rem;
+}
+.numbercomment{
+    
+}
+.nbcomment{
+    border-bottom: 2px solid black;
+    padding: 0.7rem 0rem;
+}
+.idenfification{
+    
+   text-align: right;
+   
+}
+.ic-p{
+    position: relative;
+    top:3px;
+}
+.comment-text{
+    margin:1rem 0rem;
+    
+    
+}
+.avatar{
+    display: flex;
+    flex-direction: row;
+   
+}
+.img-avatar0{
+    width: 15%;
+    text-align: center;
+    
+}
+.form-comment {
+    width: 85%;
+}
+.form-comment form textarea{
+    width: 100%;
+    height: 7rem;
+    outline: none;
+    border:1px solid rgb(219, 217, 217);
+    padding: 0.5rem;
+    font-size: 16px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.comment-design{
+    background-color: white;
+    padding: 0.5rem;
+    border-radius:10px;
+    margin-bottom: 1.6rem;
+    border:1px solid rgb(190, 190, 190);
+}
+.comment-design .ic-av{
+    position: relative;
+    
+    background-color: white;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+    padding: 0.2rem;
+    border-radius: 100%;
+    top:-30px;
+    left: -15px;
+    line-height: 0;
+}
+.info-c p{
+    margin-top: -25px;
+    
+}
+.nameu{
+    position: relative;
+    top:-38px;
+    left: -10px;
+    color:rgb(218, 153, 15);
+    letter-spacing: 3px;
+}
+.action-commen{
+    text-align: right;
+    margin-top: -20px;
+}
+.action-commen span{
+    font-size:24px;
+    margin-right: 10px;
+    margin-left: 5px;
+    position: relative;
+    top:-5px;
+    
+}
+.action-commen img{
+    padding: 0.3rem;
+}
+.action-commen img:hover{
+    background-color: rgba(235, 235, 235, 0.883);
+    border-radius: 100%;
+}
+.sub-btn2{
+    float: right;
+    border:1px solid rgb(246, 186, 56);
+    padding: 0.5rem 2rem;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 16px;
+    color:rgb(30,30,30);
+    transition: 0.7s;
+}
+.sub-btn2:hover{
+    background-color: rgb(246, 186, 56);
+    color:white;
+}
+@media only screen and (max-width: 760px) {
+    .block-read{
+        flex-direction: column;
+    }
+    .block-read div{
+        width: 100%;
+    }
+    .more{
+        margin-top: 1rem;
+    }
+    .read-img img{
+        width: 100%;
+    }
+    .avatar{
+        flex-direction: column;
+        }
+    .img-avatar0{
+        text-align: left;
+    }
+  }
