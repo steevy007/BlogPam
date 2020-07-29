@@ -1,0 +1,232 @@
+.forum-b1{
+    width: 100%;
+    background-color: whitesmoke;
+    padding-top: 4rem;
+}
+.forum-b01 .hy{
+    color: rgb(240, 178, 46);
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 8px;
+}
+.forum-b01 p{
+    
+}
+.bt-1{
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+.bt-1 a{
+    background-color: white;
+    padding:  0.5rem 4rem;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+    line-height: 3rem;
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius:40px;
+    transition: 0.7s;
+}
+.bt-1 a:hover{
+    background-color: rgb(240, 193, 93);
+    color:whitesmoke;
+}
+.ic-for1{
+    position: relative;
+    top:6px;
+}
+.f-title{
+    color:rgb(30,30,30);
+}
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 900000;
+    background-color: rgba(10, 10, 10, 0.253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-content{
+    width: 50%;
+    background-color: white;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+    padding:0.5rem 1.5rem ;
+    transition: 1s;
+    
+}
+.close-mod{
+    position: relative;
+    top:15px;
+}
+.close-m{
+    text-align: right;
+}
+.modal-content h2{
+    color: rgb(30,30,30);
+}
+.item1{
+    width: 100%;
+}
+.item1 input{
+    width: 100%;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 0.5rem;
+    font-size: 16;
+    height: 2.5rem;
+    outline: none;
+    border:1px solid rgb(224, 223, 223);
+}
+.item1 textarea{
+    width: 100%;
+    height: 8rem;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 0.5rem;
+    font-size: 16;
+    outline: none;
+    border:1px solid rgb(224, 223, 223);
+}
+.btn-send{
+    width: 100%;
+    text-align: right;
+}
+.modal-content form label{
+    font-family: 'Julius Sans One', sans-serif;
+    line-height: 2.5;
+}
+.btn-send button{
+    border:none;
+    outline: none;
+    padding: 0.3rem 5rem;
+    background-color: white;
+    border:1px solid rgb(224, 223, 223);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-send button:hover{
+    background-color: rgb(224, 223, 223);;
+}
+.send-m{
+    display: none;
+}
+.box-forum{
+    width: 100%;
+    background-color: white;
+    padding: 1.5rem;
+    margin:0.5rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+.box1-forum{
+    
+}
+.name-b{
+  
+}
+.f-info{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: -1.5rem;
+    padding: 0.3rem 1.8rem;
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(224, 223, 223);
+    margin-bottom: 2rem;
+}
+.f-info h5{
+    margin: 0;
+    color:rgb(218, 153, 15);
+}
+.f-info p{
+    margin-top: 3px;
+    
+}
+.box1-forum .sp09{
+    position: relative;
+    top: -10px;
+    right: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(30,30,30);
+   
+    padding: 0.3rem 0.7rem;
+    border-radius: 100%;
+    border:1px solid rgb(224, 223, 223);
+    font-size: 25px;
+}
+.for-ic1{
+    position: relative;
+    top:-4px;
+    padding: 10px;
+}
+.for-ic{
+
+    margin-top: -7px;
+}
+.form-se{
+    margin-bottom: 2rem;
+    width: 100%;
+    text-align: right;
+    
+}
+.form-se form{
+    width: 35%;
+    border:1px solid rgb(224, 223, 223);
+    float: right;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.form-se form span{
+    position: relative;
+    top:10px;
+}
+.form-se form input{
+    width: 92%;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 0.5rem;
+    font-size:16px;
+    border:none;
+    outline: none;
+    border-bottom:1px solid rgb(30,30,30);
+}
+@media only screen and (max-width: 760px) {
+    .modal-content{
+        width: 95%;
+    }
+    .modal-content h3{
+        font-size: 14px;
+        
+    }
+    .item1 input{
+        font-size: 14px;
+        height: 2rem;
+    }
+    .item1 textarea{
+        height: 5rem;
+    }
+    .send-m{
+        display: block;
+    }
+    .send-d{
+        display: none;
+    }
+    .btn-send button{
+        padding: 0.3rem 3rem;
+    }
+    .bt-1 a{
+        font-size: 15px;
+        padding:  0.5rem 2.5rem;
+    }
+    .form-se form{
+        width: 100%;
+    }
+    .form-se form input{
+        width: 87%;
+    }
+}
