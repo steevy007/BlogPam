@@ -132,5 +132,8 @@
     .vh{
         padding: 10rem 0rem;
     }
+    .form-log h5{
+        font-size: 20px;
+    }
     
 }
