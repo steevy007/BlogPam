@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Icones/20200719_214002.jpg" />
+    <link rel="stylesheet" href="CSS/aos.css">
+    <link rel="stylesheet" href="CSS/admsystem.css">
+    <title>BlogPam | Administration System</title>
+</head>
+
+<body>
+
+    <div class="adm-desktop">
+
+    </div>
+
+
+    <div class="none">
+        <div class="adm-mobile">
+            <div class="aff-error">
+                <h1>Error</h1>
+                <p class="fg">
+                    Espace Administration disponible seulement sur pc
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sit! Temporibus corrupti quidem assumenda atque laboriosam. Perferendis debitis inventore harum ad eius sunt quasi, esse quia atque, magni consequatur tempore?
+                </p>
+    
+                <div>
+                    <a href="">Page Accueil</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/aos.js"></script>
+    <script>
+        AOS.init();
+        $(document).ready(function () {
+            scroller.init();
+            $(".owl-carousel").owlCarousel({
+                margin: 5,
+                loop: true,
+                autoWidth: true,
+                items: 2
+            });
+        });
+    </script>
+</body>
+
+</html>
