@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="Icones/20200719_214002.jpg" />
-    <link rel="stylesheet" href="../assets/CSS/aos.css">
-    <link rel="stylesheet" href="../assets/CSS/admsystem.css">
-    <link rel="stylesheet" href="../assets/CSS/dropzone.css">
-    <link rel="stylesheet" href="../assets/CSS/contact.css">
-    <link rel="stylesheet" href="../assets/CSS/admlogin.css">
+    <link rel="stylesheet" href="../../assets/CSS/aos.css">
+    <link rel="stylesheet" href="../../assets/CSS/admsystem.css">
+    <link rel="stylesheet" href="../../assets/CSS/dropzone.css">
+    <link rel="stylesheet" href="../../assets/CSS/contact.css">
+    <link rel="stylesheet" href="../../assets/CSS/admlogin.css">
     <script src="https://kit.fontawesome.com/77e2f3b2cf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
 
@@ -25,16 +25,16 @@
                 <h4>BlogPam <span class="hk">Administration</span></h4>
             </div>
             <div class="hm2">
-                <img src="../assets/Icones/icons8_Male_User_48px.png" alt=""> <span>Utilisateur Nom</span>
+                <img src="../../assets/Icones/icons8_Male_User_48px.png" alt=""> <span>Utilisateur Nom</span>
             </div>
         </div>
         <div class="adm-desk">
             <div class="menu-adm">
                 <div class="nav-adm">
                     <ul>
-                        <li><a href="Adm-system.html">Statistique</a></li>
-                        <li><a href="Adm-article.html">Article</a></li>
-                        <li><a id="wh" href="Adm-user.html">Utilisateur</a></li>
+                        <li><a href="Adm-system.php">Statistique</a></li>
+                        <li><a href="Adm-article.php">Article</a></li>
+                        <li><a id="wh" href="Adm-user.php">Utilisateur</a></li>
                     </ul>
                 </div>
             </div>
@@ -50,62 +50,62 @@
                             <div class="article-adm">
                                 <div class="divi">
                                     <h4>Nom Prenom</h4>
-                                    <a href=""><img src="../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
                                 </div>
                                 <div class="divi">
                                     <h4>Nom Prenom</h4>
-                                    <a href=""><img src="../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
                                 </div>
                                 <div class="divi">
                                     <h4>Nom Prenom</h4>
-                                    <a href=""><img src="../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="article-adm">
                                 <div class="divi">
                                     <h4>Nom Prenom</h4>
-                                    <a href=""><img src="../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
                                 </div>
                                 <div class="divi">
                                     <h4>Nom Prenom</h4>
-                                    <a href=""><img src="../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
                                 </div>
                                 <div class="divi">
                                     <h4>Nom Prenom</h4>
-                                    <a href=""><img src="../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
                                 </div>
                             </div>
 
                             <div class="article-adm">
                                 <div class="divi">
                                     <h4>Nom Prenom</h4>
-                                    <a href=""><img src="../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
                                 </div>
                                 <div class="divi">
                                     <h4>Nom Prenom</h4>
-                                    <a href=""><img src="../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
                                 </div>
                                 <div class="divi">
                                     <h4>Nom Prenom</h4>
-                                    <a href=""><img src="../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
-                                    <a href=""><img src="../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Edit_File_24px.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Delete_24px_1.png" alt=""></a>
+                                    <a href=""><img src="../../assets/ICONES/icons8_Error_24px_2.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -182,11 +182,11 @@
         </div>
     </div>
 
-    <script src="../assets/JS/jquery.min.js"></script>
-    <script src="../assets/JS/tab.js"></script>
-    <script src="../assets/JS/aos.js"></script>
-    <script src="../assets/JS/Dropzone.js"></script>
-    <script src="../assets/JS/editor.js"></script>
+    <script src="../../assets/JS/jquery.min.js"></script>
+    <script src="../../assets/JS/tab.js"></script>
+    <script src="../../assets/JS/aos.js"></script>
+    <script src="../../assets/JS/Dropzone.js"></script>
+    <script src="../../assets/JS/editor.js"></script>
     <script>
         AOS.init();
         $(document).ready(function () {

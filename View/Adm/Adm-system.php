@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="Icones/20200719_214002.jpg" />
-    <link rel="stylesheet" href="../assets/CSS/aos.css">
-    <link rel="stylesheet" href="../assets/CSS/admsystem.css">
+    <link rel="stylesheet" href="../../assets/CSS/aos.css">
+    <link rel="stylesheet" href="../../assets/CSS/admsystem.css">
     <title>BlogPam | Administration System</title>
 </head>
 
@@ -19,16 +19,16 @@
                 <h4>BlogPam <span class="hk">Administration</span></h4>
             </div>
             <div class="hm2">
-                <img src="../assets/Icones/icons8_Male_User_48px.png" alt=""> <span>Utilisateur Nom</span>
+                <img src="../../assets/Icones/icons8_Male_User_48px.png" alt=""> <span>Utilisateur Nom</span>
             </div>
         </div>
         <div class="adm-desk">
             <div class="menu-adm">
                 <div class="nav-adm">
                     <ul>
-                        <li><a id="wh" href="Adm-system.html">Statistique</a></li>
-                        <li><a href="Adm-article.html">Article</a></li>
-                        <li><a href="Adm-user.html">Utilisateur</a></li>
+                        <li><a id="wh" href="Adm-system.php">Statistique</a></li>
+                        <li><a href="Adm-article.php">Article</a></li>
+                        <li><a href="Adm-user.php">Utilisateur</a></li>
                     </ul>
                 </div>
             </div>
@@ -36,25 +36,25 @@
               
                 <div class="wrapper">
                     <div class="counter col_fourth">
-                       <center> <i ><img src="../assets/Icones/icons8_User_Groups_50px.png" alt=""></i></center>
+                       <center> <i ><img src="../../assets/Icones/icons8_User_Groups_50px.png" alt=""></i></center>
                         <h2 class="timer count-title count-number" data-to="300" data-speed="1500"></h2>
                         <p class="count-text ">Listes des Utilisateurs</p>
                     </div>
 
                     <div class="counter col_fourth">
-                        <center> <i ><img src="../assets/Icones/icons8_News_50px.png" alt=""></i></center>
+                        <center> <i ><img src="../../assets/Icones/icons8_News_50px.png" alt=""></i></center>
                         <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
                         <p class="count-text ">Listes Des Articles</p>
                     </div>
 
                     <div class="counter col_fourth">
-                        <center> <i ><img src="../assets/Icones/icons8_Discussion_Forum_50px.png" alt=""></i></center>
+                        <center> <i ><img src="../../assets/Icones/icons8_Discussion_Forum_50px.png" alt=""></i></center>
                         <h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
                         <p class="count-text ">Listes des Forums</p>
                     </div>
 
                     <div class="counter col_fourth end">
-                        <center> <i ><img src="../assets/Icones/icons8_Comments_50px.png" alt=""></i></center>
+                        <center> <i ><img src="../../assets/Icones/icons8_Comments_50px.png" alt=""></i></center>
                         <h2 class="timer count-title count-number" data-to="157" data-speed="1500"></h2>
                         <p class="count-text ">Listes des commentaires</p>
                     </div>
@@ -87,8 +87,8 @@
         </div>
     </div>
 
-    <script src="../assets/JS/jquery.min.js"></script>
-    <script src="../assets/JS/aos.js"></script>
+    <script src="../../assets/JS/jquery.min.js"></script>
+    <script src="../../assets/JS/aos.js"></script>
     <script>
         AOS.init();
         $(document).ready(function () {
@@ -101,7 +101,7 @@
             });
         });
     </script>
-<script src="../assets/JS/anCounter.js"></script>
+<script src="../../assets/JS/anCounter.js"></script>
 </body>
 
 </html>

@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="../assets/Icones/20200719_214002.jpg" />
-    <link rel="stylesheet" href="../assets/CSS/aos.css">
-    <link rel="stylesheet" href="../assets/CSS/admsystem.css">
-    <link rel="stylesheet" href="../assets/CSS/admsystem.css">
-    <link rel="stylesheet" href="../assets/CSS/dropzone.css">
+    <link rel="icon" type="image/png" href="../../assets/Icones/20200719_214002.jpg" />
+    <link rel="stylesheet" href="../../assets/CSS/aos.css">
+    <link rel="stylesheet" href="../../assets/CSS/admsystem.css">
+    <link rel="stylesheet" href="../../assets/CSS/admsystem.css">
+    <link rel="stylesheet" href="../../assets/CSS/dropzone.css">
     <script src="https://kit.fontawesome.com/77e2f3b2cf.js" crossorigin="anonymous"></script>
     <title>BlogPam | Editer Article</title>
 </head>
@@ -22,16 +22,16 @@
                 <h4>BlogPam <span class="hk">Administration</span></h4>
             </div>
             <div class="hm2">
-                <img src="../assets/Icones/icons8_Male_User_48px.png" alt=""> <span>Utilisateur Nom</span>
+                <img src="../../assets/Icones/icons8_Male_User_48px.png" alt=""> <span>Utilisateur Nom</span>
             </div>
         </div>
         <div class="adm-desk">
             <div class="menu-adm">
                 <div class="nav-adm">
                     <ul>
-                        <li><a id="wh" href="Adm-system.html">Statistique</a></li>
-                        <li><a href="Adm-article.html">Article</a></li>
-                        <li><a href="Adm-user.html">Utilisateur</a></li>
+                        <li><a id="wh" href="Adm-system.php">Statistique</a></li>
+                        <li><a href="Adm-article.php">Article</a></li>
+                        <li><a href="Adm-user.php">Utilisateur</a></li>
                     </ul>
                 </div>
             </div>
@@ -129,8 +129,8 @@
         </div>
     </div>
 
-    <script src="../assets/JS/jquery.min.js"></script>
-    <script src="../assets/JS/aos.js"></script>
+    <script src="../../assets/JS/jquery.min.js"></script>
+    <script src="../../assets/JS/aos.js"></script>
     <script>
         AOS.init();
         $(document).ready(function () {
@@ -143,7 +143,7 @@
             });
         });
     </script>
-<script src="../assets/JS/anCounter.js"></script>
+<script src="../../assets/JS/anCounter.js"></script>
 </body>
 
 </html>

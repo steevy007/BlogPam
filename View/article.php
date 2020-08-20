@@ -17,44 +17,14 @@
 </head>
 
 <body>
-    <header>
-        <div class="wrapper">
-            <div class="brand">
-                <h4><a href="index.html"><img class="icc" src="../assets/Icones/20200719_214010.png" alt=""></a></h4>
-                <a href="javascript:menu()" id="menu"><img src="../assets/Icones/icons8_Menu_32px_2.png" alt=""></a>
-            </div>
-            <nav id="blockMenu">
-                <div class="text-center">
-                    <a href="javascript:close()" id="close"><img src="../assets/Icones/icons8_Multiply_24px.png" alt=""></a>
-                    <h4 class="h4h"><a href="#"><img class="icc1" src="../assets/Icones/20200719_214010.png" alt=""></a></h4>
-                    <div class="form-search">
-                        <input type="search" name="search" id="search">
-                        <span class="isearch"><img src="../assets/Icones/icons8_Find_and_Replace_24px.png" alt=""></span>
-                    </div>
-                </div>
-                <ul>
-                    <li> <a href="index.html"> <img class="move" src="../assets/Icones/icons8_Home_24px.png" alt="">
-                            Accueil</a></li>
-             
-                    <li><a href="article.html"><img class="move" src="../assets/Icones/icons8_News_24px.png" alt="">
-                            Article</a></li>
-                    <li><a href="forum.html"><img class="move" src="../assets/Icones/icons8_Discussion_Forum_24px.png" alt=""> Forum</a>
-                    </li>
-                    <li><a href="contact.html"><img class="move" src="../assets/Icones/icons8_Phone_24px.png" alt=""> Contact</a></li>
-                </ul>
-
-
-            </nav>
-        </div>
-    </header>
+    <?php require_once 'partials/Header.php' ?>
 
     <div class="sub-title">
         <div class="sub-titleb">
 
             <div class="wrapper1">
                 <div class="sub-link1">
-                    <b>Categorie</b> <span class="ic-link1"> <img src="../assets/Icones/icons8_Chevron_Right_18px.png"
-                            alt=""></span><span>Sport</span>
+                    <b>Categorie</b> <span class="ic-link1"> <img src="../assets/Icones/icons8_Chevron_Right_18px.png" alt=""></span><span>Sport</span>
                 </div>
                 <div class="sub-t1">
                     <div class="sub-t2">
@@ -119,8 +89,7 @@
                                 <a href=""><img src="../assets/Icones/icons8_Read_32px.png" alt=""></a>
                             </div>
                             <div class="inf-item">
-                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png"
-                                    alt="">
+                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png" alt="">
                             </div>
 
                             <div class="inf-item">
@@ -146,8 +115,7 @@
                                 <a href=""><img src="../assets/Icones/icons8_Read_32px.png" alt=""></a>
                             </div>
                             <div class="inf-item">
-                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png"
-                                    alt="">
+                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png" alt="">
                             </div>
 
                             <div class="inf-item">
@@ -173,8 +141,7 @@
                                 <a href=""><img src="../assets/Icones/icons8_Read_32px.png" alt=""></a>
                             </div>
                             <div class="inf-item">
-                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png"
-                                    alt="">
+                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png" alt="">
                             </div>
 
                             <div class="inf-item">
@@ -200,8 +167,7 @@
                                 <a href=""><img src="../assets/Icones/icons8_Read_32px.png" alt=""></a>
                             </div>
                             <div class="inf-item">
-                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png"
-                                    alt="">
+                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png" alt="">
                             </div>
 
                             <div class="inf-item">
@@ -231,8 +197,7 @@
                                 <a href=""><img src="../assets/Icones/icons8_Read_32px.png" alt=""></a>
                             </div>
                             <div class="inf-item">
-                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png"
-                                    alt="">
+                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png" alt="">
                             </div>
 
                             <div class="inf-item">
@@ -258,8 +223,7 @@
                                 <a href=""><img src="../assets/Icones/icons8_Read_32px.png" alt=""></a>
                             </div>
                             <div class="inf-item">
-                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png"
-                                    alt="">
+                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png" alt="">
                             </div>
 
                             <div class="inf-item">
@@ -285,8 +249,7 @@
                                 <a href=""><img src="../assets/Icones/icons8_Read_32px.png" alt=""></a>
                             </div>
                             <div class="inf-item">
-                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png"
-                                    alt="">
+                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png" alt="">
                             </div>
 
                             <div class="inf-item">
@@ -312,8 +275,7 @@
                                 <a href=""><img src="../assets/Icones/icons8_Read_32px.png" alt=""></a>
                             </div>
                             <div class="inf-item">
-                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png"
-                                    alt="">
+                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png" alt="">
                             </div>
 
                             <div class="inf-item">
@@ -343,8 +305,7 @@
                                 <a href=""><img src="../assets/Icones/icons8_Read_32px.png" alt=""></a>
                             </div>
                             <div class="inf-item">
-                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png"
-                                    alt="">
+                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png" alt="">
                             </div>
 
                             <div class="inf-item">
@@ -370,8 +331,7 @@
                                 <a href=""><img src="../assets/Icones/icons8_Read_32px.png" alt=""></a>
                             </div>
                             <div class="inf-item">
-                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png"
-                                    alt="">
+                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png" alt="">
                             </div>
 
                             <div class="inf-item">
@@ -397,8 +357,7 @@
                                 <a href=""><img src="../assets/Icones/icons8_Read_32px.png" alt=""></a>
                             </div>
                             <div class="inf-item">
-                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png"
-                                    alt="">
+                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png" alt="">
                             </div>
 
                             <div class="inf-item">
@@ -424,8 +383,7 @@
                                 <a href=""><img src="../assets/Icones/icons8_Read_32px.png" alt=""></a>
                             </div>
                             <div class="inf-item">
-                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png"
-                                    alt="">
+                                <span class="sp1">20 &nbsp;</span> <img src="../assets/Icones/icons8_Comments_32px_1.png" alt="">
                             </div>
 
                             <div class="inf-item">
@@ -444,108 +402,16 @@
 
     <div class="pagination">
         <ul>
-            <li><a href=""><</a></li>
-            <li><a href="">1</a></li>
+            <li><a href="">
+                    <</a> </li> <li><a href="">1</a></li>
             <li><a href="">2</a></li>
-             <li><a href="">3</a></li>
+            <li><a href="">3</a></li>
             <li><a href="">4</a></li>
             <li><a href="">></a></li>
         </ul>
     </div>
 
-
-    <div class="pied">
-        <div class="wrapper">
-            <div class="foot">
-                <div class="f1" id="big" data-aos="zoom-in-right">
-                    <img src="../assets/Icones/20200719_214010.png" alt="" class="log">
-
-                    <div class="about">
-                        <h5>About</h5>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, aliquid. Harum sed q.
-                        </p>
-                    </div>
-                    <div class="contact">
-                        <h5>Contact</h5>
-                        <span class="ic-ft1"><img src="../assets/Icones/icons8_Phone_18px.png" alt=""></span> <span
-                            class="ic-ft">+509 44111987</span> <br>
-                        <span class="ic-ft1"><img src="../assets/Icones/icons8_Important_Mail_18px.png" alt=""></span> <span
-                            class="ic-ft"><a href="mailto:mail@gmail.com">blogpam@contact.com</a></span>
-
-                    </div>
-                </div>
-
-                <div class="f1" id="smallest" data-aos="zoom-out-down">
-                    <h5>Information</h5>
-                    <span class="link-ic"><img src="../assets/Icones/icons8_Chevron_Right_16px.png" alt=""></span><span
-                        class="link-1"><a href="">Accueil</a></span> <br>
-                    <span class="link-ic"><img src="../assets/Icones/icons8_Chevron_Right_16px.png" alt=""></span><span
-                        class="link-1"><a href="">A Propos</a></span> <br>
-                    <span class="link-ic"><img src="../assets/Icones/icons8_Chevron_Right_16px.png" alt=""></span><span
-                        class="link-1"><a href="">Article</a></span> <br>
-                    <span class="link-ic"><img src="../assets/Icones/icons8_Chevron_Right_16px.png" alt=""></span><span
-                        class="link-1"><a href="">Forum</a></span> <br>
-
-                </div>
-
-                <div class="f1" id="smallest" data-aos="zoom-out-down">
-                    <h5>Lien Utile</h5>
-                    <span class="link-ic"><img src="../assets/Icones/icons8_Broken_Link_16px.png" alt=""></span><span
-                        class="link-1"><a href="">OpenClassroom</a></span> <br>
-                    <span class="link-ic"><img src="Icones/icons8_Broken_Link_16px.png" alt=""></span><span
-                        class="link-1"><a href="">Devvelopez</a></span> <br>
-                    <span class="link-ic"><img src="../assets/Icones/icons8_Broken_Link_16px.png" alt=""></span><span
-                        class="link-1"><a href="">Expert Online</a></span> <br>
-                    <span class="link-ic"><img src="../assets/Icones/icons8_Broken_Link_16px.png" alt=""></span><span
-                        class="link-1"><a href="">Aprendre a code</a></span> <br>
-                    <span class="link-ic"><img src="../assets/Icones/icons8_Broken_Link_16px.png" alt=""></span><span
-                        class="link-1"><a href="">Parlons Code</a></span> <br>
-                    <span class="link-ic"><img src="../assets/Icones/icons8_Broken_Link_16px.png" alt=""></span><span
-                        class="link-1"><a href="">Lien Final</a></span> <br>
-
-                </div>
-
-                <div class="f1" id="small" data-aos="zoom-in-left">
-                    <h5>S' Abonner Pour Plus Infos</h5>
-                    <form action="">
-                        <div class="form-ab">
-                            <img src="../assets/Icones/icons8_Important_Mail_18px_2.png" alt="">
-                            <input type="email" placeholder="Veuillez Saisir Votre Mail">
-
-                        </div>
-                        <button class="btn-sub" type="submit">Abonner</button>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-
-    <div class="pied-cont2">
-        <div class="wrapper">
-            <div class="copyright">
-                <div class="cone">
-                    <div class="ic-12">
-                        <a href=""><img src="../assets/Icones/icons8_Facebook_F_24px_1.png" alt=""></a>
-                    </div>
-                    <div class="ic-12">
-                        <a href=""><img src="../assets/Icones/icons8_Twitter_24px.png" alt=""></a>
-                    </div>
-                    <div class="ic-12">
-                        <a href=""><img src="../assets/Icones/icons8_Instagram_25px.png" alt=""></a>
-                    </div>
-                    <div class="ic-12">
-                        <a href=""><img src="../assets/Icones/icons8_LinkedIn_2_25px.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="copyr">
-                    @2020 Copyrigth All Rigth Reserved
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php require_once'partials/Footer.php' ?>
 
 
     <script src="../assets/JS/jquery.min.js"></script>
@@ -555,7 +421,7 @@
     <script src="../assets/JS/scrolls.js"></script>
     <script>
         AOS.init();
-        $(document).ready(function () {
+        $(document).ready(function() {
             scroller.init();
             $(".owl-carousel").owlCarousel({
                 margin: 5,
