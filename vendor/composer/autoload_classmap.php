@@ -9,6 +9,8 @@ return array(
     'App\\Dao\\Connexion' => $baseDir . '/Src/Dao/connexion.dao.php',
     'App\\Dao\\Database' => $baseDir . '/Src/Dao/database.dao.php',
     'App\\Dao\\IDao\\DAOUser' => $baseDir . '/Src/Dao/IDao/user_i.php',
+    'App\\Dao\\IDao\\NEWSLETTERDao' => $baseDir . '/Src/Dao/IDao/newsletter_i.php',
+    'App\\Dao\\NewletterDao' => $baseDir . '/Src/Dao/newletter.dao.php',
     'App\\Dao\\UserDao' => $baseDir . '/Src/Dao/user.dao.php',
     'App\\Model\\Article' => $baseDir . '/Src/Model/article.class.php',
     'App\\Model\\CommentA' => $baseDir . '/Src/Model/commentaire_A.class.php',

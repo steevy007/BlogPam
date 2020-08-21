@@ -32,6 +32,8 @@ class ComposerStaticInit69cd0b6b799d343818fc33fdfaaf8aed
         'App\\Dao\\Connexion' => __DIR__ . '/../..' . '/Src/Dao/connexion.dao.php',
         'App\\Dao\\Database' => __DIR__ . '/../..' . '/Src/Dao/database.dao.php',
         'App\\Dao\\IDao\\DAOUser' => __DIR__ . '/../..' . '/Src/Dao/IDao/user_i.php',
+        'App\\Dao\\IDao\\NEWSLETTERDao' => __DIR__ . '/../..' . '/Src/Dao/IDao/newsletter_i.php',
+        'App\\Dao\\NewletterDao' => __DIR__ . '/../..' . '/Src/Dao/newletter.dao.php',
         'App\\Dao\\UserDao' => __DIR__ . '/../..' . '/Src/Dao/user.dao.php',
         'App\\Model\\Article' => __DIR__ . '/../..' . '/Src/Model/article.class.php',
         'App\\Model\\CommentA' => __DIR__ . '/../..' . '/Src/Model/commentaire_A.class.php',
