@@ -6,7 +6,7 @@ class Connexion
 {
 
     private static $connexion = null;
-
+    //private Database ;
     private function __construct()
     {
     }
@@ -15,6 +15,6 @@ class Connexion
         if (self::$connexion == null) {
             self::$connexion = new Database();
         }
-        return self::$connexion;
+        return self::$connexion->getConnexion();
     }
 }

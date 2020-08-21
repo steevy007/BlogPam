@@ -11,8 +11,9 @@ class User
     private $type_user;
     private $password;
     private $date_created;
+    private $etat;
 
-    public function __const($user_id,$nom,$prenom,$Email,$type_user,$password,$date_created)
+    public function __construct($user_id,$nom,$prenom,$Email,$type_user,$password,$date_created)
     {
         $this->user_id=$user_id;
         $this->nom=$nom;
@@ -20,6 +21,7 @@ class User
         $this->Email=$Email;
         $this->type_user=$type_user;
         $this->password=$password;
+        $this->etat='oui';
         $this->date_created=$date_created;
     }
 
@@ -159,6 +161,26 @@ class User
     public function setDate_created($date_created)
     {
         $this->date_created = $date_created;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of etat
+     */ 
+    public function getEtat()
+    {
+        return $this->etat;
+    }
+
+    /**
+     * Set the value of etat
+     *
+     * @return  self
+     */ 
+    public function setEtat($etat)
+    {
+        $this->etat = $etat;
 
         return $this;
     }

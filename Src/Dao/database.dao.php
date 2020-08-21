@@ -15,9 +15,19 @@ class Database
 
         try {
             $this->connexion = new \PDO("mysql:host=localhost;dbname=$dbName", $user, $password);
-            echo 'Connexion reussi';
+            $this->connexion->setAttribute(\PDO::ATTR_ERRMODE,\PDO::ERRMODE_EXCEPTION);
         } catch (\Exception $e) {
             die('Error :' . $e);
         }
+    }
+
+   
+
+    /**
+     * Get the value of connexion
+     */ 
+    public function getConnexion()
+    {
+        return $this->connexion;
     }
 }
